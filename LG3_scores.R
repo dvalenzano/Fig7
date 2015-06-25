@@ -17,7 +17,7 @@ g1
 
 #### Dec04-2014 #####
 
-gdays2 <- read.csv('/Volumes/group_dv/personal/DValenzano/Dec2014/surv-sex-logrank2.csv', sep=',' , header=TRUE)
+gdays2 <- read.csv('/Volumes/group_dv/personal/DValenzano/month-by-month/Dec2014/surv-sex-logrank2.csv', sep=',' , header=TRUE)
 names(gdays2)
 # To merge the dot plot for surv-qtl, sex and log-rank test values, I need to put everything in the same column
 negl_qvalg2 <- c(gdays2$neg_log.qval., gdays2$neg_log.qval._sex, gdays2$log.rank) 
