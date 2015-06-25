@@ -67,7 +67,7 @@ grid()
 
 ######### SURVIVAL ON FEMALES ONLY ###############
 
-gdays3 <- read.csv('/Volumes/group_dv/personal/DValenzano/Dec2014/surv-sex-logrank3.csv', sep=',' , header=TRUE)
+gdays3 <- read.csv('/Volumes/group_dv/personal/DValenzano/month-by-month/Dec2014/surv-sex-logrank3.csv', sep=',' , header=TRUE)
 
 xf<-gdays3$cM
 yf<-gdays3$log.rankf
@@ -91,7 +91,7 @@ grid()
 
 ######### SURVIVAL ON MALES ONLY ###############
 
-gdays4 <- read.csv('/Volumes/group_dv/personal/DValenzano/Dec2014/surv-sex-logrank4.csv', sep=',' , header=TRUE)
+gdays4 <- read.csv('/Volumes/group_dv/personal/DValenzano/month-by-month/Dec2014/surv-sex-logrank4.csv', sep=',' , header=TRUE)
 
 xm<-gdays4$cM
 ym<-gdays4$log.rankm
